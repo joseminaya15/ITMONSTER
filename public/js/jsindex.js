@@ -35,7 +35,7 @@ $('#home .owl-carousel').owlCarousel({
 	dots: false,
 	autoplayTimeout : 3000
 });
-function sendInformation(){
+function sendInformation(element){
 	var name 		 = $('#name').val();
 	var surname 	 = $('#surname').val();
 	var company 	 = $('#company').val();
@@ -85,6 +85,7 @@ function sendInformation(){
 		msj('error', 'Cantidad de usuarios debe completarse');
 		return;
 	}
+	element.prop('disabled',true);
 	$.ajax({
 		data : {Name	          : name,
 				Surname	          : surname,
@@ -106,6 +107,7 @@ function sendInformation(){
 				$('.js-checkbox').find('input').prop("checked", false);
 				$('#confirmation').addClass('aparecer');
 				msj('success', data.msj);
+				element.prop('disabled',false);
         	}else{
         		msj('error', data.msj);
         		return;

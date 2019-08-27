@@ -41,6 +41,7 @@
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
                     <li class="nav-item active"><a class="link" href="#home">Inicio</a></li>
+                    <li class="nav-item"><a class="link" href="#agenda">Agenda</a></li>
                     <li class="nav-item"><a class="link" href="#register">Registro</a></li>
                 </ul>
             </div>
@@ -50,20 +51,65 @@
         <div class="owl-carousel owl-theme">
             <div class="item">
                 <div class="js-fondo fondo1"></div>
+                <div class="js-container">
+                    <div class="js-home js-flex">
+                        <div class="js-contenido">
+                            <h2>&Uacute;nase a Hewlett Packard Enterprise y conozca nuestra visi&oacute;n para la empresa del futuro.</h2>
+                            <a href="#register" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect link js-button">Registrese aqu&iacute;</a>
+                        </div>
+                    </div>
+                </div>
             </div>
             <div class="item">
                 <div class="js-fondo fondo2"></div>
+                <div class="js-container">
+                    <div class="js-home js-flex">
+                        <div class="js-contenido">
+                            <h2>Comparte con Hewlett Packard Enterprise, las &uacute;ltimas novedades y soluciones, para mejorar su competitividad!</h2>
+                            <a href="#register" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect link js-button">Registrese aqu&iacute;</a>
+                        </div>
+                    </div>
+                </div>
             </div>
             <div class="item">
                 <div class="js-fondo fondo3"></div>
+                <div class="js-container">
+                    <div class="js-home js-flex">
+                        <div class="js-contenido">
+                            <h2>Adelanta el futuro de la tecnolog&iacute;a empresarial con HPE!</h2>
+                            <a href="#register" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect link js-button">Registrese aqu&iacute;</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="js-fondo fondo4"></div>
+                <div class="js-container">
+                    <div class="js-home js-flex">
+                        <div class="js-contenido">
+                            <h2>La inteligencia lo cambia todo</h2>
+                            <a href="#register" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect link js-button">Registrese aqu&iacute;</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="js-fondo fondo5"></div>
+                <div class="js-container">
+                    <div class="js-home js-flex">
+                        <div class="js-contenido">
+                            <h2>Adelanta el futuro de la tecnolog&iacute;a empresarial con HPE!</h2>
+                            <a href="#register" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect link js-button">Registrese aqu&iacute;</a>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
+    </section>
+    <section id="agenda" class="js-section">
         <div class="js-container">
-            <div class="js-home js-flex">
-                <div class="js-contenido">
-                    <h2>Comparte con Hewlett Packard Enterprise, las &uacute;ltimas novedades y soluciones, para mejorar su competitividad!</h2>
-                    <a href="#register" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect link js-button">Registrese aqu&iacute;</a>
-                </div>
+            <div class="js-title">
+                <h2>AGENDA</h2>
             </div>
         </div>
     </section>
@@ -134,7 +180,7 @@
                 </div>
             </div>
             <div class="js-section--button text-center">
-                <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect js-button js-login" onclick="sendInformation()">Enviar</button>
+                <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect js-button js-login" onclick="sendInformation($(this))">Enviar</button>
             </div>
             <div id="confirmation" class="js-confirmation">
                 <h2>Registro realizado correctamente.</h2>

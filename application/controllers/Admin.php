@@ -24,11 +24,11 @@ class Admin extends CI_Controller {
                             <td class="text-left">'.$key->surname.'</td>
                             <td class="text-left">'.$key->company.'</td>
                             <td class="text-left">'.$key->position.'</td>
-                            <td class="text-right">'.$key->phone.'</td>
+                            <td class="text-center">'.$key->phone.'</td>
                             <td class="text-left">'.$key->email.'</td>
                             <td class="text-left">'.$key->invitation.'</td>
                             <td class="text-left">'.$key->sport.'</td>
-                            <td class="text-right">'.$key->users.'</td>
+                            <td class="text-center">'.$key->users.'</td>
                             <td class="text-center">'.$key->date.'</td>
                         </tr>';
             }

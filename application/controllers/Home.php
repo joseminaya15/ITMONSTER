@@ -73,16 +73,16 @@ class Home extends CI_Controller {
 			$this->email->from('info@iradianty.com');
 			$this->email->to($correo);
 			// $this->email->to('jose.minayac15@gmail.com');
-			$this->email->subject('Invitación lOGISTICA.');
+			$this->email->subject('Invitación HPE IT MONSTER.');
 			$texto = '<!DOCTYPE html>
 			                <html>
 			                    <body>
 			                        <table width="500" cellpadding="0" cellspacing="0" align="center" style="border: solid 1px #ccc;">
 			                            <tr>
-			                                <td style="background-color: #FFFFFF;width:100%;border-bottom: 1px solid #CCCCCC;">
-			                                    <table width="500" cellspacing="0" cellpadding="0" border="0" style="background-color: #FFFFFF;padding: 10px 20px;width: 100%;">
+			                                <td style="background-color: #415564;width:100%;border-bottom: 1px solid #CCCCCC;">
+			                                    <table width="500" cellspacing="0" cellpadding="0" border="0" style="background-color: #415564;padding: 10px 20px;width: 100%;">
 			                                        <tr>
-														<td><a href="#"><img src="http://iradianty.com/HPE/events/microsite/Logistica/public/img/logo/logistica.jpg" width="200" alt="alternative text" border="0" style="display: block;"></a></td>
+														<td><a><img src="http://iradianty.com/HPE/events/microsite/ITMONSTER/public/img/logo/hpe-logo.png" width="125" border="0" style="display: block;"></a></td>
 			                                        </tr>
 			                                    </table>
 			                                </td>
@@ -94,7 +94,7 @@ class Home extends CI_Controller {
 			                                            <td style="text-align: center;padding: 0;margin: 0;padding-bottom: 10px"><font style="font-family: arial;color: #000000;font-size: 18px;font-weight: 600">Muchas gracias.<br> Su registro ha sido realizado con &eacute;xito.</font></td>
 													</tr>
 			                                        <tr>
-			                                            <td style="text-align: center;"><font style="font-family: arial;color: #757575;font-size: 12px;">&copy;Logistica S.A., 2019</font></td>
+													<td style="text-align: center;"><font style="font-family: arial;color: #757575;font-size: 12px;">&copy;Copyright 2019 Hewlett Packard Enterprise Development LP</font></td>
 			                                        </tr>
 			                                    </table>
 			                                </td>

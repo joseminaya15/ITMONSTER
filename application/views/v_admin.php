@@ -44,11 +44,11 @@
                                     <th class="text-left">Apellido</th>
                                     <th class="text-left">Empresa</th>
                                     <th class="text-left">Cargo</th>
-                                    <th class="text-right">Tel&eacute;fono</th>
+                                    <th class="text-center">Tel&eacute;fono</th>
                                     <th class="text-left">Email</th>
                                     <th class="text-left">Invitado por:</th>
                                     <th class="text-left">Deporte</th>
-                                    <th class="text-right"># Empleados</th>
+                                    <th class="text-center"># Empleados</th>
                                     <th class="text-center">Fecha</th>
                                 </tr>
                             </thead>
