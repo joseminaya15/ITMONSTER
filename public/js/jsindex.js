@@ -33,7 +33,7 @@ $('#home .owl-carousel').owlCarousel({
 	autoplay : true,
 	mouseDrag: false,
 	dots: false,
-	autoplayTimeout : 3000
+	autoplayTimeout : 5000
 });
 function sendInformation(element){
 	var name 		 = $('#name').val();

@@ -4,13 +4,13 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible"  content="IE=edge">
     <meta name="viewport"               content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
-    <meta name="description"            content="HPE IT MONSTER">
-    <meta name="keywords"               content="HPE IT MONSTER">
+    <meta name="description"            content="HPE Panama">
+    <meta name="keywords"               content="HPE Panama">
     <meta name="robots"                 content="Index,Follow">
     <meta name="date"                   content="AUGUST 15, 2019"/>
     <meta name="language"               content="en">
     <meta name="theme-color"            content="#425563">
-	<title>HPE IT MONSTER</title>
+	<title>HPE Panama</title>
     <link rel="shortcut icon" href="<?php echo RUTA_IMG?>logo/favicon.ico">
     <link rel="stylesheet"    href="<?php echo RUTA_PLUGINS?>toaster/toastr.css?v=<?php echo time();?>">
     <link rel="stylesheet"    href="<?php echo RUTA_PLUGINS?>mdl/material.min.css?v=<?php echo time();?>">
@@ -53,7 +53,7 @@
                 <div class="js-fondo fondo1"></div>
                 <div class="js-container">
                     <div class="js-home js-flex">
-                        <div class="js-contenido">
+                        <div class="js-contenido contenido1">
                             <h2>&Uacute;nase a Hewlett Packard Enterprise y conozca nuestra visi&oacute;n para la empresa del futuro.</h2>
                             <a href="#register" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect link js-button">Registrese aqu&iacute;</a>
                         </div>
@@ -64,7 +64,7 @@
                 <div class="js-fondo fondo2"></div>
                 <div class="js-container">
                     <div class="js-home js-flex">
-                        <div class="js-contenido">
+                        <div class="js-contenido contenido2">
                             <h2>Comparte con Hewlett Packard Enterprise, las &uacute;ltimas novedades y soluciones, para mejorar su competitividad!</h2>
                             <a href="#register" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect link js-button">Registrese aqu&iacute;</a>
                         </div>
@@ -75,7 +75,7 @@
                 <div class="js-fondo fondo3"></div>
                 <div class="js-container">
                     <div class="js-home js-flex">
-                        <div class="js-contenido">
+                        <div class="js-contenido contenido3">
                             <h2>Adelanta el futuro de la tecnolog&iacute;a empresarial con HPE!</h2>
                             <a href="#register" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect link js-button">Registrese aqu&iacute;</a>
                         </div>
@@ -86,7 +86,7 @@
                 <div class="js-fondo fondo4"></div>
                 <div class="js-container">
                     <div class="js-home js-flex">
-                        <div class="js-contenido">
+                        <div class="js-contenido contenido4">
                             <h2>La inteligencia lo cambia todo</h2>
                             <a href="#register" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect link js-button">Registrese aqu&iacute;</a>
                         </div>
@@ -104,12 +104,87 @@
                     </div>
                 </div>
             </div>
+            <div class="item">
+                <div class="js-fondo fondo6"></div>
+                <div class="js-container">
+                    <div class="js-home js-flex">
+                        <div class="js-contenido">
+                            <h2>La inteligencia lo cambia todo</h2>
+                            <a href="#register" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect link js-button">Registrese aqu&iacute;</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
-    <section id="agenda" class="js-section">
+    <section id="agenda" class="js-section" style="background-color: #01a982;">
         <div class="js-container">
             <div class="js-title">
-                <h2>AGENDA</h2>
+                <h2 style="color: #FFFFFF;">AGENDA</h2>
+            </div>
+            <div class="js-card">
+                <ul class="nav nav-tabs" role="tablist">
+                    <li class="active"><a href="#agosto7" aria-controls="agosto7" role="tab" data-toggle="tab">TEMAS</a></li>
+                    <li><a href="#agosto8" aria-controls="agosto8" role="tab" data-toggle="tab">EXPOSITORES</a></li>
+                </ul>
+                <div class="tab-content">
+                    <div role="tabpanel" class="tab-pane fade in active" id="agosto7">
+                        <div class="table-responsive js-table">
+                            <table class="table table-striped">
+                                <thead>
+                                    <tr>
+                                        <th></th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td class="js-flex"><span>1</span>HPE Infosight – Aprendizaje automático en la nube (AI) para HPE Proliant, Simplivity.</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="js-flex"><span>2</span>Lanzamiento de HPE Simplivity 325: la &uacute;ltima oferta en nuestra cartera hiperconvergente que lleva la potencia de Simplivity,  a un denso factor de forma de 1U con tecnolog&iacute;a de procesadores EPDC AMD, construido en el servidor HPE ProLiant DL325 Gen10.</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="js-flex"><span>3</span>Lanzamiento de HPE Primera – almacenamiento m&aacute;s inteligente del mundo para aplicaciones cruciales, que libera la agilidad de la nube para que puedas innovar sin compromiso ¡Disponibilidad del 100 % garantizada!</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="js-flex"><span>4</span>Lanzamiento de AMD EPYC ™ Rome: la l&iacute;nea de procesadores EPYC Rome de pr&oacute;xima generaci&oacute;n de AMD que se basa en la nueva arquitectura de n&uacute;cleo de 2 nm de 7 nm.</td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <p>Area de demostraciones:</p>
+                                            <ul>
+                                                <li>HPE Simplivity</li>
+                                                <li>Aruba Clearpass</li>
+                                            </ul>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <div role="tabpanel" class="tab-pane fade" id="agosto8">
+                        <div class="table-responsive js-table">
+                            <table class="table table-striped">
+                                <thead>
+                                    <tr>
+                                        <th></th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td><strong>Mauricio Conejo</strong> - Hewlett Packard Enterprise Datacenter Specialist</td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>David Garza Mar&iacute;n</strong> - AMD Solutions Architect Manager (MTS) | Client Field Support Area</td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>Alfredo Camacho</strong> - AMD Business Developer Executive para  Centro America</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>

@@ -110,6 +110,20 @@ strong
 .js-flex
 	flexCenter()
 	justify-content center
+td
+	&.js-flex
+		justify-content flex-start
+		span
+			flexCenter()
+			justify-content center
+			width 40px
+			min-width 40px
+			height 40px
+			border 1px solid #383A3F
+			border-radius 50%
+			font-size 26px
+			line-height 0
+			margin-right 10px
 .js-flex--start
 	flexStart()
 	justify-content center
@@ -338,15 +352,17 @@ strong
 		width 100%
 		height 100px
 	&.fondo1
-		background url(../img/fondo/fondo1.png) no-repeat center center
-	&.fondo2
 		background url(../img/fondo/fondo2.png) no-repeat center center
+	&.fondo2
+		background url(../img/fondo/fondo1.png) no-repeat center center
 	&.fondo3
 		background url(../img/fondo/fondo3.png) no-repeat center center
 	&.fondo4
 		background url(../img/fondo/fondo4.png) no-repeat center center
 	&.fondo5
 		background url(../img/fondo/fondo5.png) no-repeat center center
+	&.fondo6
+		background url(../img/fondo/fondo6.png) no-repeat center center
 #home
 	height 100vh
 	position relative
@@ -422,6 +438,12 @@ footer
 		margin-bottom 10px
 	small
 		font-size 18px
+	&.contenido1
+		margin-bottom 100px
+	&.contenido3
+		margin-top 200px
+	&.contenido4
+		margin-top 200px
 .js-information
 	padding 20px 0
 	text-align center
@@ -684,15 +706,27 @@ table
 @media (max-width: 768px)
 	.js-fondo
 		&.fondo1
-			background url(../img/fondo/fondo_mobile1.png) no-repeat center center
+			background url(../img/fondo/fondo_mobile3.png) no-repeat center center
 		&.fondo2
 			background url(../img/fondo/fondo_mobile2.png) no-repeat center center
 		&.fondo3
-			background url(../img/fondo/fondo_mobile3.png) no-repeat center center
+			background url(../img/fondo/fondo_mobile4.png) no-repeat center center
 		&.fondo4
-			background url(../img/fondo/fondo_mobile2.png) no-repeat center center
+			background url(../img/fondo/fondo_mobile1.png) no-repeat center center
 		&.fondo5
-			background url(../img/fondo/fondo_mobile3.png) no-repeat center center
+			background url(../img/fondo/fondo_mobile4.png) no-repeat center center
+		&.fondo6
+			background url(../img/fondo/fondo_mobile2.png) no-repeat center center
+	.js-contenido
+		&.contenido1
+			margin-bottom 0
+		&.contenido2
+			margin-bottom 50px
+		&.contenido3
+			margin-top 0
+		&.contenido4
+			margin-top 0
+			margin-bottom 100px
 @media (max-width: 600px)
 	.js-contenido
 		padding 20px

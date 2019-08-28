@@ -4,13 +4,13 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible"  content="IE=edge">
         <meta name="viewport"               content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
-        <meta name="description"            content="HPE IT MONSTER">
-        <meta name="keywords"               content="HPE IT MONSTER">
+        <meta name="description"            content="HPE Panama">
+        <meta name="keywords"               content="HPE Panama">
         <meta name="robots"                 content="Index,Follow">
         <meta name="date"                   content="AUGUST 15, 2019"/>
         <meta name="language"               content="en">
         <meta name="theme-color"            content="#425563">
-        <title>HPE IT MONSTER</title>
+        <title>HPE Panama</title>
         <link rel="shortcut icon" href="<?php echo RUTA_IMG?>logo/favicon.ico">
         <link rel="stylesheet"    href="<?php echo RUTA_PLUGINS?>toaster/toastr.min.css?v=<?php echo time();?>">
         <link rel="stylesheet"    href="<?php echo RUTA_PLUGINS?>bootstrap-select/css/bootstrap-select.min.css?v=<?php echo time();?>">
