@@ -110,6 +110,7 @@ strong
 .js-flex
 	flexCenter()
 	justify-content center
+li
 td
 	&.js-flex
 		justify-content flex-start
@@ -124,6 +125,10 @@ td
 			font-size 26px
 			line-height 0
 			margin-right 10px
+li
+	&.js-flex
+		font-size 16px
+		margin-bottom 10px
 .js-flex--start
 	flexStart()
 	justify-content center
@@ -329,7 +334,7 @@ td
 		border 2px solid #FFFFFF
 .js-fondo
 	absolute()
-	background url(../img/fondo/fondo1.png) no-repeat bottom center
+	background url(../img/fondo/fondo6.png) no-repeat bottom center
 	background-size cover !important
 	width 100%
 	height 100vh
@@ -444,6 +449,8 @@ footer
 		margin-top 200px
 	&.contenido4
 		margin-top 200px
+	&.contenido6
+		margin-bottom 100px
 .js-information
 	padding 20px 0
 	text-align center
@@ -691,7 +698,7 @@ table
 						color #FFFFFF !important
 	.navbar-brand
 		img
-			max-width 150px
+			max-width 140px
 	.navbar-default
 		box-shadow none
 		-webkit-box-shadow none
@@ -705,28 +712,33 @@ table
 // 			background-color #425563
 @media (max-width: 768px)
 	.js-fondo
+		background url(../img/fondo/fondo_mobile4.png) no-repeat center center
 		&.fondo1
-			background url(../img/fondo/fondo_mobile3.png) no-repeat center center
-		&.fondo2
-			background url(../img/fondo/fondo_mobile2.png) no-repeat center center
-		&.fondo3
 			background url(../img/fondo/fondo_mobile4.png) no-repeat center center
-		&.fondo4
+		&.fondo2
+			background url(../img/fondo/fondo_mobile3.png) no-repeat center center
+		&.fondo3
 			background url(../img/fondo/fondo_mobile1.png) no-repeat center center
+		&.fondo4
+			background url(../img/fondo/fondo_mobile2.png) no-repeat center center
 		&.fondo5
 			background url(../img/fondo/fondo_mobile4.png) no-repeat center center
 		&.fondo6
 			background url(../img/fondo/fondo_mobile2.png) no-repeat center center
 	.js-contenido
 		&.contenido1
-			margin-bottom 0
+			margin-bottom 150px
 		&.contenido2
-			margin-bottom 50px
+			margin-bottom 0
 		&.contenido3
 			margin-top 0
+			margin-bottom 0
 		&.contenido4
 			margin-top 0
-			margin-bottom 100px
+		&.contenido5
+			margin-bottom 150px
+		&.contenido6
+			margin-bottom 0
 @media (max-width: 600px)
 	.js-contenido
 		padding 20px
@@ -736,8 +748,6 @@ table
 	.dataTables_info
 	.dataTables_paginate
 		margin 20px 0 !important
-	.js-fondo
-		background-position right !important
 	.js-partners
 		img 
 			max-width 125px

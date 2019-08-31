@@ -73,7 +73,7 @@ class Home extends CI_Controller {
 			$this->email->from('info@iradianty.com');
 			$this->email->to($correo);
 			// $this->email->to('jose.minayac15@gmail.com');
-			$this->email->subject('Invitación HPE IT MONSTER.');
+			$this->email->subject('Invitación HPE Panama.');
 			$texto = '<!DOCTYPE html>
 			                <html>
 			                    <body>
@@ -82,7 +82,7 @@ class Home extends CI_Controller {
 			                                <td style="background-color: #415564;width:100%;border-bottom: 1px solid #CCCCCC;">
 			                                    <table width="500" cellspacing="0" cellpadding="0" border="0" style="background-color: #415564;padding: 10px 20px;width: 100%;">
 			                                        <tr>
-														<td><a><img src="http://iradianty.com/HPE/events/microsite/ITMONSTER/public/img/logo/hpe-logo.png" width="125" border="0" style="display: block;"></a></td>
+														<td><a><img src="http://iradianty.com/HPE/events/microsite/hpe_panama/public/img/logo/hpe-logo.png" width="125" border="0" style="display: block;"></a></td>
 			                                        </tr>
 			                                    </table>
 			                                </td>

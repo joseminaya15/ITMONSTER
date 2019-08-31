@@ -54,7 +54,7 @@
                 <div class="js-container">
                     <div class="js-home js-flex">
                         <div class="js-contenido contenido1">
-                            <h2>&Uacute;nase a Hewlett Packard Enterprise y conozca nuestra visi&oacute;n para la empresa del futuro.</h2>
+                            <h2>&Uacute;nase a HPE y conozca nuestra visi&oacute;n para la empresa del futuro.</h2>
                             <a href="#register" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect link js-button">Registrese aqu&iacute;</a>
                         </div>
                     </div>
@@ -65,7 +65,7 @@
                 <div class="js-container">
                     <div class="js-home js-flex">
                         <div class="js-contenido contenido2">
-                            <h2>Comparte con Hewlett Packard Enterprise, las &uacute;ltimas novedades y soluciones, para mejorar su competitividad!</h2>
+                            <h2>Comparte con HPE, las &uacute;ltimas novedades y soluciones, para mejorar su competitividad!</h2>
                             <a href="#register" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect link js-button">Registrese aqu&iacute;</a>
                         </div>
                     </div>
@@ -97,7 +97,7 @@
                 <div class="js-fondo fondo5"></div>
                 <div class="js-container">
                     <div class="js-home js-flex">
-                        <div class="js-contenido">
+                        <div class="js-contenido contenido5">
                             <h2>Adelanta el futuro de la tecnolog&iacute;a empresarial con HPE!</h2>
                             <a href="#register" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect link js-button">Registrese aqu&iacute;</a>
                         </div>
@@ -108,7 +108,7 @@
                 <div class="js-fondo fondo6"></div>
                 <div class="js-container">
                     <div class="js-home js-flex">
-                        <div class="js-contenido">
+                        <div class="js-contenido contenido6">
                             <h2>La inteligencia lo cambia todo</h2>
                             <a href="#register" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect link js-button">Registrese aqu&iacute;</a>
                         </div>
@@ -138,23 +138,20 @@
                                 </thead>
                                 <tbody>
                                     <tr>
-                                        <td class="js-flex"><span>1</span>HPE Infosight – Aprendizaje automático en la nube (AI) para HPE Proliant, Simplivity.</td>
+                                        <td class="js-flex"><span>1</span>HPE Infosight – Aprendizaje automático en la nube (AI) para HPE.</td>
                                     </tr>
                                     <tr>
-                                        <td class="js-flex"><span>2</span>Lanzamiento de HPE Simplivity 325: la &uacute;ltima oferta en nuestra cartera hiperconvergente que lleva la potencia de Simplivity,  a un denso factor de forma de 1U con tecnolog&iacute;a de procesadores EPDC AMD, construido en el servidor HPE ProLiant DL325 Gen10.</td>
+                                        <td class="js-flex"><span>2</span>Lanzamiento de HPE Primera – almacenamiento m&aacute;s inteligente del mundo para aplicaciones cruciales. ¡Disponibilidad del 100 % garantizada!</td>
                                     </tr>
                                     <tr>
-                                        <td class="js-flex"><span>3</span>Lanzamiento de HPE Primera – almacenamiento m&aacute;s inteligente del mundo para aplicaciones cruciales, que libera la agilidad de la nube para que puedas innovar sin compromiso ¡Disponibilidad del 100 % garantizada!</td>
-                                    </tr>
-                                    <tr>
-                                        <td class="js-flex"><span>4</span>Lanzamiento de AMD EPYC ™ Rome: la l&iacute;nea de procesadores EPYC Rome de pr&oacute;xima generaci&oacute;n de AMD que se basa en la nueva arquitectura de n&uacute;cleo de 2 nm de 7 nm.</td>
+                                        <td class="js-flex"><span>3</span>Nuevo HPE Simplivity 325: la &uacute;ltima oferta en nuestra cartera hiperconvergente que lleva la potencia de Simplivity con AMD.</td>
                                     </tr>
                                     <tr>
                                         <td>
-                                            <p>Area de demostraciones:</p>
+                                            <p><strong style="font-size: 22px;display: block; margin-top: 20px;margin-bottom: 10px;font-weight: 100;color: #555;">Area de demostraciones:</strong></p>
                                             <ul>
-                                                <li>HPE Simplivity</li>
-                                                <li>Aruba Clearpass</li>
+                                                <li class="js-flex"><span>1</span>HPE Simplivity Hyperconverged Solution Demo.</li>
+                                                <li class="js-flex"><span>2</span>Aruba Clearpass Software de visibilidad y seguridad para entornos cableados e inal&aacute;mbricos.</li>
                                             </ul>
                                         </td>
                                     </tr>
@@ -172,6 +169,9 @@
                                 </thead>
                                 <tbody>
                                     <tr>
+                                        <td><strong>Jose Elias</strong> - Sales Leader, Centro America, Ven and DR</td>
+                                    </tr>
+                                    <tr>
                                         <td><strong>Mauricio Conejo</strong> - Hewlett Packard Enterprise Datacenter Specialist</td>
                                     </tr>
                                     <tr>
@@ -179,6 +179,9 @@
                                     </tr>
                                     <tr>
                                         <td><strong>Alfredo Camacho</strong> - AMD Business Developer Executive para  Centro America</td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>Jose Ramos</strong> - Especialista de la linea de Software de Aruba Networks</td>
                                     </tr>
                                 </tbody>
                             </table>
@@ -191,8 +194,8 @@
     <section id="register" class="js-section">
         <div class="js-container">
             <div class="js-information">
-                <h2>Jueves 12 de Setiembre, 2019 | Hora de inicio 4:00 pm</h2>
-                <p>Hotel Central (Panam&aacute;)</p>
+                <h2>Jueves 12 de Septiembre, 2019 | Hora de inicio 4:00 pm</h2>
+                <p>Hotel Central, Casco Viejo</p>
                 <p>Panam&aacute;</p>
             </div>
             <div class="js-title">
