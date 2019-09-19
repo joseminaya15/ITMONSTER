@@ -2,7 +2,7 @@ $regular  = 'MetricRegular'
 $bold     = 'MetricBold'
 $medium   = 'MetricSemiBold'
 $light    = 'MetricLight'
-$color    = #FDB913
+$color    = #415564
 $default  = #01a982
 flexCenter()
 	display flex
@@ -668,6 +668,12 @@ table
 		font-weight 100
 .jm-survey
 	.jm-survey__item
+		.jm-survey__text
+			margin 20px 0
+			.jm-radio
+				width 100%
+				max-width 100px
+				display inline-block
 		.jm-survey__number
 			margin 20px 0
 			.jm-radio
@@ -680,11 +686,11 @@ table
 					height 100%
 					.mdl-radio__label
 						flexCenter()
+						justify-content center
 						border 1px solid $default
 						border-radius 50%
 						width 30px
 						height 30px
-						display inline-block
 					.mdl-radio__outer-circle
 					.mdl-radio__inner-circle
 					.mdl-radio__ripple-container
@@ -693,6 +699,20 @@ table
 						.mdl-radio__label
 							background-color $default
 							color #FFF
+				&.jm-orange
+					.mdl-radio
+						.mdl-radio__label
+							border 1px solid #FF8D6D
+						&.is-checked
+							.mdl-radio__label
+								background-color #FF8D6D
+				&.jm-purple
+					.mdl-radio
+						.mdl-radio__label
+							border 1px solid #614767
+						&.is-checked
+							.mdl-radio__label
+								background-color #614767
 /*TOASTR*/
 /*SCROLL*/
 ::-webkit-scrollbar

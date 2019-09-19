@@ -25,24 +25,14 @@
     <link rel="stylesheet"    href="<?php echo RUTA_CSS?>style.css?v=<?php echo time();?>">
 </head>
 <body>
-    <nav class="navbar navbar-default">
-        <div class="js-container">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand link" href="#home">
-                    <img src="<?php echo RUTA_IMG?>logo/hpe-logo.png">
-                </a>
-            </div>
+    <div class="js-header js-fixed">
+        <div class="js-header--left">
+            <img src="<?php echo RUTA_IMG?>logo/hpe-logo.png">
         </div>
-    </nav>
+    </div>
     <section class="js-section">
         <div class="js-container">
-            <div class="js-title">
+            <div class="js-title" style="margin-top: 60px;">
                 <h2>Evaluaci&oacute;n</h2>
             </div>
             <div class="js-information">
@@ -183,31 +173,31 @@
                         <p>4. Temas expuestos</p>
                     </div>
                     <div class="jm-survey__number">
-                        <div class="jm-radio">
+                        <div class="jm-radio jm-orange">
                             <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="question4-1">
                                 <input type="radio" id="question4-1" hidden class="mdl-radio__button" name="question4" value="1">
                                 <span class="mdl-radio__label">1</span>
                             </label>
                         </div>
-                        <div class="jm-radio">
+                        <div class="jm-radio jm-orange">
                             <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="question4-2">
                                 <input type="radio" id="question4-2" hidden class="mdl-radio__button" name="question4" value="2">
                                 <span class="mdl-radio__label">2</span>
                             </label>
                         </div>
-                        <div class="jm-radio">
+                        <div class="jm-radio jm-orange">
                             <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="question4-3">
                                 <input type="radio" id="question4-3" hidden class="mdl-radio__button" name="question4" value="3">
                                 <span class="mdl-radio__label">3</span>
                             </label>
                         </div>
-                        <div class="jm-radio">
+                        <div class="jm-radio jm-orange">
                             <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="question4-4">
                                 <input type="radio" id="question4-4" hidden class="mdl-radio__button" name="question4" value="4">
                                 <span class="mdl-radio__label">4</span>
                             </label>
                         </div>
-                        <div class="jm-radio">
+                        <div class="jm-radio jm-orange">
                             <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="question4-5">
                                 <input type="radio" id="question4-5" hidden class="mdl-radio__button" name="question4" value="5">
                                 <span class="mdl-radio__label">5</span>
@@ -220,31 +210,31 @@
                         <p>5. ¿C&oacute;mo calificar&iacute;a a los expositores?</p>
                     </div>
                     <div class="jm-survey__number">
-                        <div class="jm-radio">
+                        <div class="jm-radio jm-orange">
                             <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="question5-1">
                                 <input type="radio" id="question5-1" hidden class="mdl-radio__button" name="question5" value="1">
                                 <span class="mdl-radio__label">1</span>
                             </label>
                         </div>
-                        <div class="jm-radio">
+                        <div class="jm-radio jm-orange">
                             <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="question5-2">
                                 <input type="radio" id="question5-2" hidden class="mdl-radio__button" name="question5" value="2">
                                 <span class="mdl-radio__label">2</span>
                             </label>
                         </div>
-                        <div class="jm-radio">
+                        <div class="jm-radio jm-orange">
                             <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="question5-3">
                                 <input type="radio" id="question5-3" hidden class="mdl-radio__button" name="question5" value="3">
                                 <span class="mdl-radio__label">3</span>
                             </label>
                         </div>
-                        <div class="jm-radio">
+                        <div class="jm-radio jm-orange">
                             <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="question5-4">
                                 <input type="radio" id="question5-4" hidden class="mdl-radio__button" name="question5" value="4">
                                 <span class="mdl-radio__label">4</span>
                             </label>
                         </div>
-                        <div class="jm-radio">
+                        <div class="jm-radio jm-orange">
                             <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="question5-5">
                                 <input type="radio" id="question5-5" hidden class="mdl-radio__button" name="question5" value="5">
                                 <span class="mdl-radio__label">5</span>
@@ -257,31 +247,31 @@
                         <p>6. Producci&oacute;n del evento</p>
                     </div>
                     <div class="jm-survey__number">
-                        <div class="jm-radio">
+                        <div class="jm-radio jm-orange">
                             <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="question6-1">
                                 <input type="radio" id="question6-1" hidden class="mdl-radio__button" name="question6" value="1">
                                 <span class="mdl-radio__label">1</span>
                             </label>
                         </div>
-                        <div class="jm-radio">
+                        <div class="jm-radio jm-orange">
                             <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="question6-2">
                                 <input type="radio" id="question6-2" hidden class="mdl-radio__button" name="question6" value="2">
                                 <span class="mdl-radio__label">2</span>
                             </label>
                         </div>
-                        <div class="jm-radio">
+                        <div class="jm-radio jm-orange">
                             <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="question6-3">
                                 <input type="radio" id="question6-3" hidden class="mdl-radio__button" name="question6" value="3">
                                 <span class="mdl-radio__label">3</span>
                             </label>
                         </div>
-                        <div class="jm-radio">
+                        <div class="jm-radio jm-orange">
                             <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="question6-4">
                                 <input type="radio" id="question6-4" hidden class="mdl-radio__button" name="question6" value="4">
                                 <span class="mdl-radio__label">4</span>
                             </label>
                         </div>
-                        <div class="jm-radio">
+                        <div class="jm-radio jm-orange">
                             <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="question6-5">
                                 <input type="radio" id="question6-5" hidden class="mdl-radio__button" name="question6" value="5">
                                 <span class="mdl-radio__label">5</span>
@@ -294,31 +284,31 @@
                         <p>7. Alimentos y bebidas</p>
                     </div>
                     <div class="jm-survey__number">
-                        <div class="jm-radio">
+                        <div class="jm-radio jm-orange">
                             <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="question7-1">
                                 <input type="radio" id="question7-1" hidden class="mdl-radio__button" name="question7" value="1">
                                 <span class="mdl-radio__label">1</span>
                             </label>
                         </div>
-                        <div class="jm-radio">
+                        <div class="jm-radio jm-orange">
                             <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="question7-2">
                                 <input type="radio" id="question7-2" hidden class="mdl-radio__button" name="question7" value="2">
                                 <span class="mdl-radio__label">2</span>
                             </label>
                         </div>
-                        <div class="jm-radio">
+                        <div class="jm-radio jm-orange">
                             <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="question7-3">
                                 <input type="radio" id="question7-3" hidden class="mdl-radio__button" name="question7" value="3">
                                 <span class="mdl-radio__label">3</span>
                             </label>
                         </div>
-                        <div class="jm-radio">
+                        <div class="jm-radio jm-orange">
                             <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="question7-4">
                                 <input type="radio" id="question7-4" hidden class="mdl-radio__button" name="question7" value="4">
                                 <span class="mdl-radio__label">4</span>
                             </label>
                         </div>
-                        <div class="jm-radio">
+                        <div class="jm-radio jm-orange">
                             <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="question7-5">
                                 <input type="radio" id="question7-5" hidden class="mdl-radio__button" name="question7" value="5">
                                 <span class="mdl-radio__label">5</span>
@@ -331,31 +321,31 @@
                         <p>8. Audio y Video</p>
                     </div>
                     <div class="jm-survey__number">
-                        <div class="jm-radio">
+                        <div class="jm-radio jm-purple">
                             <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="question8-1">
                                 <input type="radio" id="question8-1" hidden class="mdl-radio__button" name="question8" value="1">
                                 <span class="mdl-radio__label">1</span>
                             </label>
                         </div>
-                        <div class="jm-radio">
+                        <div class="jm-radio jm-purple">
                             <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="question8-2">
                                 <input type="radio" id="question8-2" hidden class="mdl-radio__button" name="question8" value="2">
                                 <span class="mdl-radio__label">2</span>
                             </label>
                         </div>
-                        <div class="jm-radio">
+                        <div class="jm-radio jm-purple">
                             <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="question8-3">
                                 <input type="radio" id="question8-3" hidden class="mdl-radio__button" name="question8" value="3">
                                 <span class="mdl-radio__label">3</span>
                             </label>
                         </div>
-                        <div class="jm-radio">
+                        <div class="jm-radio jm-purple">
                             <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="question8-4">
                                 <input type="radio" id="question8-4" hidden class="mdl-radio__button" name="question8" value="4">
                                 <span class="mdl-radio__label">4</span>
                             </label>
                         </div>
-                        <div class="jm-radio">
+                        <div class="jm-radio jm-purple">
                             <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="question8-5">
                                 <input type="radio" id="question8-5" hidden class="mdl-radio__button" name="question8" value="5">
                                 <span class="mdl-radio__label">5</span>
@@ -368,31 +358,31 @@
                         <p>9. Log&iacute;stica</p>
                     </div>
                     <div class="jm-survey__number">
-                        <div class="jm-radio">
+                        <div class="jm-radio jm-purple">
                             <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="question9-1">
                                 <input type="radio" id="question9-1" hidden class="mdl-radio__button" name="question9" value="1">
                                 <span class="mdl-radio__label">1</span>
                             </label>
                         </div>
-                        <div class="jm-radio">
+                        <div class="jm-radio jm-purple">
                             <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="question9-2">
                                 <input type="radio" id="question9-2" hidden class="mdl-radio__button" name="question9" value="2">
                                 <span class="mdl-radio__label">2</span>
                             </label>
                         </div>
-                        <div class="jm-radio">
+                        <div class="jm-radio jm-purple">
                             <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="question9-3">
                                 <input type="radio" id="question9-3" hidden class="mdl-radio__button" name="question9" value="3">
                                 <span class="mdl-radio__label">3</span>
                             </label>
                         </div>
-                        <div class="jm-radio">
+                        <div class="jm-radio jm-purple">
                             <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="question9-4">
                                 <input type="radio" id="question9-4" hidden class="mdl-radio__button" name="question9" value="4">
                                 <span class="mdl-radio__label">4</span>
                             </label>
                         </div>
-                        <div class="jm-radio">
+                        <div class="jm-radio jm-purple">
                             <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="question9-5">
                                 <input type="radio" id="question9-5" hidden class="mdl-radio__button" name="question9" value="5">
                                 <span class="mdl-radio__label">5</span>
@@ -405,13 +395,13 @@
                         <p>10. ¿Considerar&iacute;a usted en una futura necesidad de adquisici&oacute;n de servidores con procesadores AMD?</p>
                     </div>
                     <div class="jm-survey__text">
-                        <div class="jm-radio">
+                        <div class="jm-radio jm-purple">
                             <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="question10-1">
                                 <input type="radio" id="question10-1" hidden class="mdl-radio__button" name="question10" value="Si">
                                 <span class="mdl-radio__label">Si</span>
                             </label>
                         </div>
-                        <div class="jm-radio">
+                        <div class="jm-radio jm-purple">
                             <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="question10-2">
                                 <input type="radio" id="question10-2" hidden class="mdl-radio__button" name="question10" value="No">
                                 <span class="mdl-radio__label">No</span>
@@ -424,19 +414,19 @@
                         <p>11. ¿Recuerda la cantidad de memoria m&aacute;xima de memoria RAM soportan los procesadores AMD EPYC serie 7002?</p>
                     </div>
                     <div class="jm-survey__text">
-                        <div class="jm-radio">
+                        <div class="jm-radio jm-purple">
                             <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="question11-1">
                                 <input type="radio" id="question11-1" hidden class="mdl-radio__button" name="question11" value="2TB">
                                 <span class="mdl-radio__label">2TB</span>
                             </label>
                         </div>
-                        <div class="jm-radio">
+                        <div class="jm-radio jm-purple">
                             <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="question11-2">
                                 <input type="radio" id="question11-2" hidden class="mdl-radio__button" name="question11" value="4TB">
                                 <span class="mdl-radio__label">4TB</span>
                             </label>
                         </div>
-                        <div class="jm-radio">
+                        <div class="jm-radio jm-purple">
                             <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="question11-3">
                                 <input type="radio" id="question11-3" hidden class="mdl-radio__button" name="question11" value="1TB">
                                 <span class="mdl-radio__label">1TB</span>
