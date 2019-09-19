@@ -666,6 +666,33 @@ table
 		color #000000
 		font-family $regular
 		font-weight 100
+.jm-survey
+	.jm-survey__item
+		.jm-survey__number
+			margin 20px 0
+			.jm-radio
+				width 100%
+				max-width 50px
+				text-align center
+				display inline-block
+				.mdl-radio
+					padding-left 0
+					height 100%
+					.mdl-radio__label
+						flexCenter()
+						border 1px solid $default
+						border-radius 50%
+						width 30px
+						height 30px
+						display inline-block
+					.mdl-radio__outer-circle
+					.mdl-radio__inner-circle
+					.mdl-radio__ripple-container
+						display none
+					&.is-checked
+						.mdl-radio__label
+							background-color $default
+							color #FFF
 /*TOASTR*/
 /*SCROLL*/
 ::-webkit-scrollbar
