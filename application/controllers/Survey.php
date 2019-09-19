@@ -32,6 +32,7 @@ class Survey extends CI_Controller {
 			$pregunta9	       = $this->input->post('Question9');
 			$pregunta10	       = $this->input->post('Question10');
 			$pregunta11	       = $this->input->post('Question11');
+			$sugerencia	       = $this->input->post('Sugerencia');
             $fecha             = date('Y-m-d');
 			$insertSurvey = array('name_survey'     => $nombre,
                                   'company_survey'  => $empresa,
@@ -46,6 +47,7 @@ class Survey extends CI_Controller {
                                   'question9'       => $pregunta9,
                                   'question10'      => $pregunta10,
                                   'question11'      => $pregunta11,
+                                  'sugerencia'      => $sugerencia,
                                   'date_survey'     => $fecha);
 				$datoInsert  = $this->M_Datos->insertarSurvey($insertSurvey,'survey');
 	          	$data['msj']   = $datoInsert['msj'];

@@ -33,6 +33,7 @@ class AdminSurvey extends CI_Controller {
                             <td class="text-center">'.$key->question9.'</td>
                             <td class="text-center">'.$key->question10.'</td>
                             <td class="text-center">'.$key->question11.'</td>
+                            <td class="text-left">'.$key->sugerencia.'</td>
                             <td class="text-center">'.$key->date_survey.'</td>
                         </tr>';
             }

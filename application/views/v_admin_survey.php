@@ -44,7 +44,7 @@
                                     <th class="text-left">Empresa</th>
                                     <th class="text-center">Preg. 1</th>
                                     <th class="text-center">Preg. 2</th>
-                                    <th class="text-center">Preg.3</th>
+                                    <th class="text-center">Preg. 3</th>
                                     <th class="text-center">Preg. 4</th>
                                     <th class="text-center">Preg. 5</th>
                                     <th class="text-center">Preg. 6</th>
@@ -53,6 +53,7 @@
                                     <th class="text-center">Preg. 9</th>
                                     <th class="text-center">Preg. 10</th>
                                     <th class="text-center">Preg. 11</th>
+                                    <th class="text-left">Sugerencia</th>
                                     <th class="text-center">Fecha</th>
                                 </tr>
                             </thead>

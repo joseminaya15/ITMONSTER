@@ -434,6 +434,16 @@
                         </div>
                     </div>
                 </div>
+                <div class="row">
+                    <div class="col-xs-12 col-sm-6 col-md-4">
+                        <div class="jm-textfield">
+                            <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                                <input class="mdl-textfield__input" type="text" id="sugerencia">
+                                <label class="mdl-textfield__label" for="sugerencia">Sugerencia</label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
             <div class="js-section--button text-center">
                 <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect js-button js-login" onclick="sendSurvey($(this))">Enviar</button>

@@ -131,6 +131,7 @@ function sendSurvey(element){
 	var question9      = $('input:radio[name=question9]:checked').val();
 	var question10     = $('input:radio[name=question10]:checked').val();
 	var question11     = $('input:radio[name=question11]:checked').val();
+	var sugerencia = $('#sugerencia').val();
 	if(name_survey == null || name_survey == '') {
 		msj('error', 'Nombre debe completarse');
 		return;
@@ -183,6 +184,10 @@ function sendSurvey(element){
 		msj('error', 'Marcar la pregunta 11');
 		return;
 	}
+	if(sugerencia == null || sugerencia == '') {
+		msj('error', 'Sugerencia debe completarse');
+		return;
+	}
 	element.prop('disabled',true);
 	$.ajax({
 		data : {NameSurvey	      : name_survey,
@@ -197,7 +202,8 @@ function sendSurvey(element){
 				Question8	      : question8,
 				Question9	      : question9,
 				Question10	      : question10,
-				Question11   	  : question11},
+				Question11   	  : question11,
+				Sugerencia   	  : sugerencia},
 		url  : 'survey/register',
 		type : 'POST'
 	}).done(function(data){
@@ -205,11 +211,12 @@ function sendSurvey(element){
 			data = JSON.parse(data);
 			if(data.error == 0){
 				$('.js-input').find('input').val('');
-				$('.js-checkbox').find('.mdl-checkbox').removeClass('is-checked');
-				$('.js-checkbox').find('input').prop("checked", false);
-				// $('#confirmation').addClass('aparecer');
+				$('.mdl-radio').removeClass('is-checked');
 				msj('success', 'Encuesta enviada');
 				element.prop('disabled',false);
+				setTimeout(function () {
+					location.reload();
+				},1000);
         	}else{
         		msj('error', data.msj);
         		return;
